@@ -1,6 +1,6 @@
 # Minitest macOS Notification
 
-Another Minitest macOS notification reporter, based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
+Simple macOS notification reporter for Minitest Reporters, based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
 
 ## Installation
 
@@ -20,7 +20,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this to your test helper:
+
+```ruby
+require "minitest/autorun"
+require "minitest/macos_notification"
+```
+
+Then in your `Minitest::Reporters.use!` block use:
+
+```ruby
+Minitest::Reporters.use!(
+  [
+    Minitest::Reporters::SpecReporter.new,
+    Minitest::Reporters::MacosNotificationReporter.new(title: "A title")
+  ],
+  ENV,
+  Minitest.backtrace_filter
+)
+```
 
 ## Development
 
@@ -39,3 +57,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the `Minitest::MacosNotification` project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/sleepingstu/minitest-macos-notification/blob/master/CODE_OF_CONDUCT.md).
+
+## TODOs
+
+* Write some tests...

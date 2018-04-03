@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "minitest/macos_notification/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "minitest-macos-notification-reporter"
+  spec.name          = "minitest-macos-notification"
   spec.version       = Minitest::MacosNotification::VERSION
   spec.authors       = ["Stuart"]
   spec.email         = ["stuart.chinery@gmail.com"]
 
-  spec.summary       = "Simple macOS notification reporter for Minitest"
-  spec.description   = "Simple macOS notification reporter for Minitest, based on the minitest-osx gem."
+  spec.summary       = "Simple macOS notification reporter for Minitest Reporters"
+  spec.description   = "Simple macOS notification reporter for Minitest Reporters, based on the minitest-osx gem."
   spec.homepage      = "https://github.com/sleepingstu/minitest-macos-notification"
   spec.license       = "MIT"
 
@@ -31,7 +31,11 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "minitest", "~> 5.0"
+  spec.add_dependency "minitest-reporters", "~> 1.1"
+  spec.add_dependency "terminal-notifier", "~> 2.0"
+
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency "minitest-fail-fast", "~> 0.1"
   spec.add_development_dependency "rake", "~> 10.0"
 end
