@@ -1,17 +1,18 @@
+# frozen_string_literal: true
 
-lib = File.expand_path("../lib", __FILE__)
+lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "minitest/macos/notification/reporter/version"
+require "minitest/macos_notification/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "minitest-macos-notification-reporter"
-  spec.version       = Minitest::Macos::Notification::Reporter::VERSION
+  spec.version       = Minitest::MacosNotification::VERSION
   spec.authors       = ["Stuart"]
   spec.email         = ["stuart.chinery@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Simple macOS notification reporter for Minitest"
+  spec.description   = "Simple macOS notification reporter for Minitest, based on the minitest-osx gem."
+  spec.homepage      = "https://github.com/sleepingstu/minitest-macos-notification"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -23,7 +24,7 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
+  spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = "exe"
@@ -31,6 +32,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.16"
-  spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency "rake", "~> 10.0"
 end
