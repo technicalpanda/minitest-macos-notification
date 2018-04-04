@@ -8,11 +8,12 @@ module Minitest
     class MacosNotificationReporter < BaseReporter
       def report
         super
-        text = format("%d failures, %d errors, %d skips in %ss", failures, errors, skips, total_time)
+        text = "#{total_count} tests, #{failures} failures, #{errors} errors, #{skips} skips in #{total_time}"
         title = options[:title] || "Minitest"
-        subtitle = (passed? ? "Successful \u{1f497}" : "Failed \u{1f4a9}")
+        subtitle = (passed? ? "\u{1F49A} Success" : "\u{1F494} Failed")
+        group = title.downcase.tr(" ", "-")
 
-        TerminalNotifier.notify(text, title: title, subtitle: subtitle)
+        TerminalNotifier.notify(text, title: title, subtitle: subtitle, group: group)
       end
     end
   end

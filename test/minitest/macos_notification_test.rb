@@ -4,8 +4,14 @@ require "test_helper"
 
 module Minitest
   class MacosNotificationTest < Minitest::Test
-    def test_that_it_has_a_version_number
-      refute_nil ::Minitest::MacosNotification::VERSION
+    describe ::Minitest::MacosNotification do
+      it "should be something" do
+        assert_kind_of Module, ::Minitest::MacosNotification
+      end
+
+      it "should have a version set" do
+        assert ::Minitest::MacosNotification::VERSION
+      end
     end
   end
 end
