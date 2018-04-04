@@ -15,11 +15,15 @@ gem "minitest-macos-notification"
 
 And then execute:
 
-    $ bundle
+```sh
+bundle
+```
 
 Or install it yourself as:
 
-    $ gem install minitest-macos-notification
+```sh
+gem install minitest-macos-notification
+```
 
 ## Usage
 
