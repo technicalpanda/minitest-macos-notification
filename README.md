@@ -1,6 +1,6 @@
 # Minitest macOS Notification
 
-Simple macOS notification reporter for Minitest Reporters, based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
+Simple macOS notification reporter for [Minitest Reporters](https://github.com/kern/minitest-reporters), based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
 
 [![Gem Version](https://badge.fury.io/rb/minitest-macos-notification.svg)](http://badge.fury.io/rb/minitest-macos-notification)
 [![Build Status](https://travis-ci.org/sleepingstu/minitest-macos-notification.svg?branch=master)](https://travis-ci.org/sleepingstu/minitest-macos-notification)
@@ -25,6 +25,8 @@ Or install it yourself as:
 gem install minitest-macos-notification
 ```
 
+Note: You will need [Minitest Reporters](https://github.com/kern/minitest-reporters) installed too to use this gem.
+
 ## Usage
 
 Add this to your test helper:
@@ -32,6 +34,7 @@ Add this to your test helper:
 ```ruby
 require "minitest/autorun"
 require "minitest/macos_notification"
+require "minitest/reporters"
 ```
 
 Then in your `Minitest::Reporters.use!` block use:
