@@ -4,6 +4,7 @@ PATH
     minitest-macos-notification (0.0.2)
       minitest (~> 5.0)
       minitest-reporters (~> 1.1)
+      os (~> 1.0)
       terminal-notifier (~> 2.0)
 
 GEM
@@ -19,6 +20,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
+    os (1.0.0)
     rake (10.5.0)
     ruby-progressbar (1.9.0)
     terminal-notifier (2.0.0)
