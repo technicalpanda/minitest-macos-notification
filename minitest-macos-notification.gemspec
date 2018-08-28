@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Simple macOS notification reporter for Minitest Reporters"
   spec.description   = "Simple macOS notification reporter for Minitest Reporters, based on the minitest-osx gem."
-  spec.homepage      = "https://github.com/sleepingstu/minitest-macos-notification"
+  spec.homepage      = "https://github.com/schinery/minitest-macos-notification"
   spec.license       = "MIT"
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "minitest", "~> 5.0"
-  spec.add_dependency "minitest-reporters", "~> 1.1"
+  spec.add_dependency "minitest-reporters", "~> 1.3.1"
   spec.add_dependency "os", "~> 1.0"
   spec.add_dependency "terminal-notifier", "~> 2.0"
 
