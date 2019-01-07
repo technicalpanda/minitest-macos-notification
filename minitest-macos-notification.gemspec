@@ -7,7 +7,7 @@ require "minitest/macos_notification/version"
 Gem::Specification.new do |spec|
   spec.name          = "minitest-macos-notification"
   spec.version       = Minitest::MacosNotification::VERSION
-  spec.authors       = ["Stuart"]
+  spec.authors       = ["Stuart Chinery"]
   spec.email         = ["stuart.chinery@gmail.com"]
 
   spec.summary       = "Simple macOS notification reporter for Minitest Reporters"
