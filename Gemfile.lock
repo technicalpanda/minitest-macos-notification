@@ -20,7 +20,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    os (1.0.0)
+    os (1.0.1)
     rake (12.3.2)
     ruby-progressbar (1.10.0)
     terminal-notifier (2.0.0)
