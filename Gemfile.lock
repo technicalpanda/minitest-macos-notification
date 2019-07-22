@@ -29,7 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler (~> 2.0)
   minitest-fail-fast (~> 0.1)
   minitest-macos-notification!
   rake (~> 12.0)
