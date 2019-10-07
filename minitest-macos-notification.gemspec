@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "minitest", "~> 5.0"
-  spec.add_dependency "minitest-reporters", "~> 1.3"
+  spec.add_dependency "minitest-reporters", "~> 1.4"
   spec.add_dependency "os", "~> 1.0"
   spec.add_dependency "terminal-notifier", "~> 2.0"
 
