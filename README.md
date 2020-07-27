@@ -3,7 +3,7 @@
 Simple macOS notification reporter for [Minitest Reporters](https://github.com/kern/minitest-reporters), based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
 
 [![Gem Version](https://badge.fury.io/rb/minitest-macos-notification.svg)](http://badge.fury.io/rb/minitest-macos-notification)
-[![Build Status](https://travis-ci.org/schinery/minitest-macos-notification.svg?branch=master)](https://travis-ci.org/schinery/minitest-macos-notification)
+[![Build Status](https://travis-ci.org/schinery/minitest-macos-notification.svg?branch=main)](https://travis-ci.org/schinery/minitest-macos-notification)
 
 ## Installation
 
@@ -66,7 +66,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the `Minitest::MacosNotification` project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/schinery/minitest-macos-notification/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the `Minitest::MacosNotification` project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/schinery/minitest-macos-notification/blob/main/CODE_OF_CONDUCT.md).
 
 ## TODOs
 
