@@ -22,5 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "byebug", "~> 11.1"
   spec.add_development_dependency "minitest-fail-fast", "~> 0.1"
   spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rubocop", "~> 0.79"
+  spec.add_development_dependency "rubocop", "~> 1.2"
 end
