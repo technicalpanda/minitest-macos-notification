@@ -1,6 +1,7 @@
 # Minitest macOS Notification
 
 [![Gem Version](https://badge.fury.io/rb/minitest-macos-notification.svg)](http://badge.fury.io/rb/minitest-macos-notification)
+![CI Build](https://github.com/technicalpanda/minitest-macos-notification/workflows/.github/workflows/ci.yml/badge.svg)
 
 Simple macOS notification reporter for [Minitest Reporters](https://github.com/kern/minitest-reporters), based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
 
