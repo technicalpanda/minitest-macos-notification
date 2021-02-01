@@ -1,9 +1,8 @@
 # Minitest macOS Notification
 
-Simple macOS notification reporter for [Minitest Reporters](https://github.com/kern/minitest-reporters), based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
-
 [![Gem Version](https://badge.fury.io/rb/minitest-macos-notification.svg)](http://badge.fury.io/rb/minitest-macos-notification)
-[![Build Status](https://travis-ci.org/schinery/minitest-macos-notification.svg?branch=main)](https://travis-ci.org/schinery/minitest-macos-notification)
+
+Simple macOS notification reporter for [Minitest Reporters](https://github.com/kern/minitest-reporters), based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
 
 ## Installation
 
@@ -58,7 +57,7 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/schinery/minitest-macos-notification. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/technicalpanda/minitest-macos-notification. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -66,8 +65,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the `Minitest::MacosNotification` project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/schinery/minitest-macos-notification/blob/main/CODE_OF_CONDUCT.md).
-
-## TODOs
-
-* Write some tests...
+Everyone interacting with this project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/technicalpanda/minitest-macos-notification/blob/main/CODE_OF_CONDUCT.md).

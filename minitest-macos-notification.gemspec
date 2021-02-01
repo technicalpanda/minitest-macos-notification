@@ -7,9 +7,9 @@ require "minitest/macos_notification/version"
 Gem::Specification.new do |spec|
   spec.authors = ["Stuart Chinery"]
   spec.description = "macOS notification reporter for Minitest Reporters, based on the minitest-osx gem."
-  spec.email = ["stuart.chinery@gmail.com"]
+  spec.email = ["code@technicalpanda.co.uk"]
   spec.files = Dir["lib/**/*", "MIT-LICENSE", "Rakefile", "README.md", "VERSION"]
-  spec.homepage = "https://github.com/schinery/minitest-macos-notification"
+  spec.homepage = "https://github.com/technicalpanda/minitest-macos-notification"
   spec.license = "MIT"
   spec.name = "minitest-macos-notification"
   spec.required_ruby_version = ">= 2.5"
