@@ -54,8 +54,10 @@ PLATFORMS
 
 DEPENDENCIES
   byebug (~> 11.1)
+  minitest (~> 5.14)
   minitest-fail-fast (~> 0.1)
   minitest-macos-notification!
+  minitest-reporters (~> 1.4)
   rake (~> 13.0)
   rubocop (~> 1.7)
   rubocop-minitest (~> 0.10)
