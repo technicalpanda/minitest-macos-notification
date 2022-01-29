@@ -11,8 +11,9 @@ Gem::Specification.new do |spec|
   spec.files = Dir["lib/**/*", "MIT-LICENSE", "Rakefile", "README.md", "VERSION"]
   spec.homepage = "https://github.com/technicalpanda/minitest-macos-notification"
   spec.license = "MIT"
+  spec.metadata["rubygems_mfa_required"] = "true"
   spec.name = "minitest-macos-notification"
-  spec.required_ruby_version = ">= 2.5"
+  spec.required_ruby_version = ">= 2.7"
   spec.summary = "macOS notification reporter for Minitest Reporters"
   spec.version = Minitest::MacosNotification::VERSION
 
@@ -20,11 +21,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency "minitest-reporters", "~> 1.4"
   spec.add_dependency "os", "~> 1.0"
   spec.add_dependency "terminal-notifier", "~> 2.0"
-  spec.add_development_dependency "byebug", "~> 11.1"
-  spec.add_development_dependency "minitest-fail-fast", "~> 0.1"
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rubocop", "~> 1.7"
-  spec.add_development_dependency "rubocop-minitest", "~> 0.10"
-  spec.add_development_dependency "rubocop-rake", "~> 0.5"
-  spec.metadata["rubygems_mfa_required"] = "true"
 end

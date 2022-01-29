@@ -5,6 +5,9 @@
 
 Simple macOS notification reporter for [Minitest Reporters](https://github.com/kern/minitest-reporters), based on the [minitest-osx](https://github.com/tombell/minitest-osx) gem.
 
+## Requirements
+
+* Ruby >= 2.7
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    minitest-macos-notification (0.4.0)
+    minitest-macos-notification (1.0.1)
       minitest (~> 5.14)
       minitest-reporters (~> 1.4)
       os (~> 1.0)
@@ -17,7 +17,7 @@ GEM
     minitest (5.15.0)
     minitest-fail-fast (0.1.0)
       minitest (~> 5)
-    minitest-reporters (1.4.3)
+    minitest-reporters (1.5.0)
       ansi
       builder
       minitest (>= 5.0)
@@ -54,12 +54,14 @@ PLATFORMS
 
 DEPENDENCIES
   byebug (~> 11.1)
+  minitest (~> 5.14)
   minitest-fail-fast (~> 0.1)
   minitest-macos-notification!
+  minitest-reporters (~> 1.4)
   rake (~> 13.0)
   rubocop (~> 1.7)
   rubocop-minitest (~> 0.10)
   rubocop-rake (~> 0.5)
 
 BUNDLED WITH
-   2.2.17
+   2.2.33
