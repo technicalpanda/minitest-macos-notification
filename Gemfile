@@ -8,7 +8,7 @@ group :development do
   gem "byebug", "~> 11.1"
   gem "minitest", "~> 5.18"
   gem "minitest-fail-fast", "~> 0.1"
-  gem "minitest-reporters", "~> 1.4"
+  gem "minitest-reporters", "~> 1.6"
   gem "rake", "~> 13.0"
   gem "rubocop", "~> 1.48"
   gem "rubocop-minitest", "~> 0.26"
