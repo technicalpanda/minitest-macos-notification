@@ -9,7 +9,7 @@ group :development do
   gem "minitest", "~> 5.20"
   gem "minitest-fail-fast", "~> 0.1"
   gem "minitest-reporters", "~> 1.6"
-  gem "rake", "~> 13.0"
+  gem "rake", "~> 13.2"
   gem "rubocop", "~> 1.56"
   gem "rubocop-minitest", "~> 0.32"
   gem "rubocop-rake", "~> 0.5"
