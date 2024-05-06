@@ -7,7 +7,10 @@ Simple macOS notification reporter for [Minitest Reporters](https://github.com/k
 
 ## Requirements
 
-* Ruby >= 2.7
+* Ruby >= 3.0
+
+For Ruby < 3.0 use version 1.0.1.
+
 ## Installation
 
 Add this line to your application's Gemfile:
